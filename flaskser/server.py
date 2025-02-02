@@ -7,7 +7,7 @@ from io import BytesIO
 app = Flask(__name__)
 
 # Replace with your actual API key
-API_KEY = "32b392c98904737f37285d01525ddd79559e364c5c62330a2172cc8c4bac5116"
+API_KEY =""
 
 @app.route("/generate-image", methods=["POST"])
 def generate_image():
